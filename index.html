@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar  navbar-light" style="background-color: #e3f2fd;">
+        <!-- Navbar content -->
+        <h1 class="admin">Admin : Vishal</h1>
+      </nav>
+      
+      <div class="cont">
+
+          <section class="chat__section">
+              <div class="brand">
+                  <img height="40" src="whatsapp.png" alt="">
+                  <!-- <h1 class="room"></h1> -->
+                  <h5 class="typing"></h5>
+                </div>
+                <div class="message__area"></div>
+                <div class="txt">
+                    <textarea id="textarea" name="txtval" cols="30" rows="1" placeholder="Write a message..."></textarea>
+                    <!-- <button type="button" class="btn btn-outline-primary">Send</button> -->
+                    <img class="btn" src="icon.png" alt="" srcset="">
+                </div>
+            </section>
+        </div>
+            <script src="/socket.io/socket.io.js"></script>
+            <script  src="/client.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
