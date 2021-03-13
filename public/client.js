@@ -1,7 +1,7 @@
 const socket = io()
 let name;
-var sent = new Audio("send.mp3");
-var rcv = new Audio("rcv.mp3");
+var sent = new Audio("horsesend.mp3");
+var rcv = new Audio("sheeprcv.mp3");
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 let btn = document.querySelector(".btn");
